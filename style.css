@@ -1,0 +1,87 @@
+* {
+
+  font-family: 'Hammersmith One', sans-serif;
+
+
+}
+
+
+.dodger {
+
+background-color: dodgerblue;
+border: midnightblue 2px solid;
+
+}
+
+
+.blue{
+
+color: dodgerblue;
+
+
+}
+
+.blue::first-letter{
+
+color: midnightblue;
+font-size: 1.25em;
+
+}
+
+body {
+
+background-image: url(images/light_honeycomb_@2X.png);
+/* background-color: midnightblue; */
+
+}
+
+.white::first-letter{
+
+    color: midnightblue;
+    font-size: 1.25em;
+
+
+}
+
+
+  .image1 {
+
+max-width: 150px;
+max-height: 100px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 5px;
+margin-bottom: 5px;
+
+  }
+
+  .midnight{
+
+background-color: midnightblue;
+
+  }
+
+  .border-box {
+
+    background-color: dodgerblue;
+    padding: 5px;
+    border: solid 2px midnightblue;
+
+
+
+  }
+
+  .m1{
+
+margin: 5px;
+border: white solid 5px;
+
+  }
+
+.center-vertical {
+
+margin-top: auto;
+margin-bottom: auto;
+
+}
+  
