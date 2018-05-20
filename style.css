@@ -18,8 +18,7 @@
 
 body {
     background-image: url(images/light_honeycomb_@2X.png);
-    height: 100%;
-    /* background-color: midnightblue; */
+  
 }
 
 .white::first-letter {
@@ -53,7 +52,7 @@ body {
 
 .border-box {
     background-color: dodgerblue;
-    padding: 2px;
+    padding: 4px;
     border: solid 2px midnightblue;
 }
 
