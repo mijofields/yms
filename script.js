@@ -11,13 +11,13 @@ $(document).ready(function() {
         autoplaySpeed: 4000
     });
 
-    // $('.regular').slick({
-    //     slidesToShow: 3,
-    //     slidesToScroll: 1,
-    //     autoplay: true,
-    //     autoplaySpeed: 2000,
-    //     dots: true,
-    //     infinite: true,
-    //     centerMode: true
-    // });
+    $(".regular").on('click', function() {
+
+
+        $(".regular").slick('slickPlay');
+        console.log("restart autoplay");
+
+    });
+
+
 });
