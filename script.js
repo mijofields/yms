@@ -1,7 +1,5 @@
 $(document).ready(function() {
 
-    console.log("script.js is running");
-
     $(".regular").slick({
         dots: true,
         infinite: true,
@@ -15,7 +13,6 @@ $(document).ready(function() {
 
 
         $(".regular").slick('slickPlay');
-        console.log("restart autoplay");
 
     });
 
