@@ -20,25 +20,15 @@ body {
     background-image: url(images/light_honeycomb_@2X.png);
 }
 
-
-/* .white::first-letter {
-    color: midnightblue;
-    font-size: 1.25em;
-} */
-
 .image1 {
     max-width: 100px;
     max-height: 100px;
-    /* margin-left: auto;
-    margin-right: auto; */
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin: auto;
 }
 
 .logo {
     max-width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 }
 
 .center {
@@ -96,3 +86,11 @@ body {
 .slick-current {
     opacity: 1;
 }
+
+/* @media screen and (min-width: 1023px) {
+    .image1 {
+        max-width: 75px;
+        max-height: 75px;
+        margin: auto;
+    }
+} */
